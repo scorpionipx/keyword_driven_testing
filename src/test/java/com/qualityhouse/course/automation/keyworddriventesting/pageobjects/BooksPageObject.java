@@ -61,6 +61,7 @@ public class BooksPageObject {
         return driver.findElements(listOfBooksInCategory);
     }
 
+
     /* list of keywords */
 
     public void clearSearchForm() {
@@ -131,8 +132,12 @@ public class BooksPageObject {
         WebElement bookFound = null;
 
         for (WebElement b : listedBooks) {
-            if (b.findElement(lblBookTitle).getText().equals(title)) {bookFound = b; }
+            if (b.findElement(lblBookTitle).getText().equals(title)) {
+                bookFound = b;
+                bookFound.click();
+            }
         }
+
         return bookFound;
     }
 

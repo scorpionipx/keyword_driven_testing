@@ -5,6 +5,7 @@ import com.qualityhouse.course.automation.keyworddriventesting.pageobjects.Commo
 import com.qualityhouse.course.automation.keyworddriventesting.pageobjects.LoginPageObject;
 import org.junit.*;
 import org.junit.Assert;
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
@@ -41,6 +42,7 @@ public class FindBook {
     @Test
     public void tcVerifyDetailsOfFoundBook() {
         // todo: Exercise - search for a book with title "The miracles of the Nature" and list its details
+
     }
 
     @Test
