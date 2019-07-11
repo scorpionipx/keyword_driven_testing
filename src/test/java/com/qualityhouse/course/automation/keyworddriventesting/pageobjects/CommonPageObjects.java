@@ -11,7 +11,7 @@ public class CommonPageObjects {
 
     /* list of page components */
 
-    public String applicationURL = "http://acme.qualityhouse.bg/build3/index.php";
+    public String applicationURL = "https://acme.qualityhouse.com/build3/index.php";
 
     public By applicationLogo = By.cssSelector("a img[src='./application/i/logo.png']");
 

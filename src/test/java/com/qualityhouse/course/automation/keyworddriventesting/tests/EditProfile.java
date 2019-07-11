@@ -58,7 +58,7 @@ public class EditProfile {
 
         editProfilePage.open();
 
-        editProfilePage.modifyProfileWithValidDetails();
+         editProfilePage.modifyProfileWithValidDetails();
 
         common.logout();
     }
